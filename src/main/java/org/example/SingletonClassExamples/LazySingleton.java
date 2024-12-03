@@ -1,5 +1,7 @@
 package org.example.SingletonClassExamples;
 
+import java.util.Hashtable;
+
 public class LazySingleton {
     private static volatile LazySingleton lazySingleton;
 
@@ -11,7 +13,7 @@ public class LazySingleton {
      * This is method has disadvantage, it two thread comes paralled in same time, sayd
      * thread1 found lazySingleton is null and created new instance of object;
      * Thread2 also found lazySingleton is null it also create new instance of object;
-     * Two instance of object is created which voilest the singleton class purpose.
+     * Two instance of object is created which voilets the singleton class purpose.
      *
      * @return
      */

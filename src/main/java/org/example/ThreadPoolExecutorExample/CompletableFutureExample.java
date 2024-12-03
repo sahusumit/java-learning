@@ -136,10 +136,6 @@ public class CompletableFutureExample {
 
             System.out.println(result2.get());
 
-
-
-
-
         } catch (Exception ignored){
             System.out.println("some exception occurred " + ignored);
         }
