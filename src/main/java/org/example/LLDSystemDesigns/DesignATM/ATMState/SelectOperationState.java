@@ -4,7 +4,7 @@ import org.example.LLDSystemDesigns.DesignATM.ATM;
 import org.example.LLDSystemDesigns.DesignATM.TransactionType;
 import org.example.LLDSystemDesigns.DesignATM.UserATMCard;
 
-public class SelectOperationState  extends ATMState{
+public class SelectOperationState extends ATMState{
 
 
     public SelectOperationState(){
